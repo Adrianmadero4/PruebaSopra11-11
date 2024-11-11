@@ -8,12 +8,12 @@ public class parImpar {
         System.out.println("LEER NUMERO");
         int numero = scanner.nextInt();
 
-        if (numero % 2 ==0) {
+        if (numero % 2 ==0) { // Verificar si es par
             System.out.println("El numero es par. \nDescendiendo, los numeros pares desde " + numero + " hasta 0 son:");
             for (int i = numero; i >= 0; i -= 2) {
                 System.out.print(i + " ");
             }
-        } else {
+        } else { // Si no es par, entonces es impar
             System.out.println("El numero es impar. \nDescendiendo, los numeros impares desde " + numero + " hasta 1 son:");
             for (int i = numero; i >= 1; i -= 2) {
                 System.out.print(i + " ");
